@@ -1,0 +1,207 @@
+[
+    {
+        "activity_name": "Fertilización del terreno",
+        "activity_description": "distribuir los fertilizantes por el terreno (con guantes y mascarilla(opcional)) con la cantidad descrita y posteriormente harar el terreno para mesclar los fertilizantes.",
+        "materials": "nitrato de amonio (33-0-0) Cantidad: 100-150 kg/ha ,Superfosfato de Calcio (0-46-0): Cantidad: 50-70 kg/ha , Cloruro de Potasio (0-0-60): Cantidad: 30-40 kg/ha",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "mezclar terreno",
+        "activity_description": "arar el terreno para mezclar bien los fertilizante con la tierra",
+        "materials": "azada, rastrillo, horquilla, Escardillo o azadilla",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "remojar semillas",
+        "activity_description": "Se llena de agua el recipiente y se aplica 2 a 3 gramos del químico por kg de semilla de arroz y se deja remojar.",
+        "materials": "carbendazim cantidad: 2-3 gramos/kg semilla  un recipiente grande",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "Preparacion del terreno",
+        "activity_description": "se hacen los surcos y los huecos donde se sembraran las semillas dejando 20 a 25 cm entre surcos y 15 a 20  cm entre huecos con 2 a 4 cm de profundidad para la semilla",
+        "materials": "azada, palo para hacer huecos",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "Preparar semillas",
+        "activity_description": "Se sacan las semillas del liquido y se escurren bien",
+        "materials": "Guantes",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "siembra de semillas",
+        "activity_description": "se llevan las semillas al terreno y se empiezan a poner en los huecos con un promedio de 4 a 6 semillas por hueco y se cubre ligeramente la semilla no completamente a la altura del hueco.",
+        "materials": null,
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "inundacion del terreno",
+        "activity_description": "empezar a inundar poco a poco el terreno midiendo la altura del agua que este entre 2 a 5 cm de altura para que las semillas no se ahoguen.",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "Labranza ligera",
+        "activity_description": "el cual consiste en pasar el rastrillo levemente por la tierra uniformemente(en diferentes direcciones) para que la capa de arriba se mueva y el agua pueda penetrar mas fácil y las semillas puedan ger",
+        "materials": "rastrillo manual o de dientes largos",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "preparación pre-emergente",
+        "activity_description": "preparar el químico para la aplicación. se disuelve la cantidad de petrilaclor descrita en 200-300 litros de agua por hectárea y se mescla bien",
+        "materials": "pretrilaclor(50% EC) 1-1.5 L/ha",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "aplicación pre-emergente",
+        "activity_description": "aplicar el herbicida en toda la hectárea, hacerlo despacio y uniformemente aplicando bien por toda la hectárea sin dejar espacios sin tratar.",
+        "materials": "mochila pulverizadora o un aspersor de barra protección(guantes, mascarilla, gafas, ropa completa)",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "control de agua",
+        "activity_description": "bajar el nivel de agua a 1-2 cm sobre la superficie",
+        "materials": null,
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "preparacion post-emergent",
+        "activity_description": "Prepare el herbicida para aplicarlo. disuelva el la cantidad de herbicida descrita en 200-300 litros de agua por hectárea y disuelva muy bien",
+        "materials": "bispiribac-sodium(10% SC)-para gramíneas, ciperáceas y malezas de hojas anchas. 200-250 ml/ha",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "aplicacion post-emergente",
+        "activity_description": "aplicar el herbicida en toda la hectárea, hacerlo despacio y uniformemente aplicando bien por toda la hectárea sin dejar espacios sin tratar.",
+        "materials": "mochila pulverizadora o un aspersor de barra protección(guantes, mascarilla, gafas, ropa completa)",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "normalizar agua",
+        "activity_description": "se vuelve el agua a su altura original 2-5 cm sobre l superficie",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+        "activity_name": "bajar el nivel agua",
+        "activity_description": "baja en nivel del agua a 1-2 cm sobre la superficie para aplicar el producto para evitar que se escape en el aire",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "Fertilización nitrogenada",
+        "activity_description": "dispersa el fertilizante por toda la hectárea si tienes un esparcidor mecánico si no manualmente",
+        "materials": "producto: urea (46-0-0) cantidad: 50-60 kg/ha",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "aumentar nivel de agua",
+        "activity_description": "sube el nivel del agua a 5-7 cm sobre la superficie en un rango de 24 horas.",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+        "activity_name": "bajar el nivel agua",
+        "activity_description": "bajar el nivel del agua 1-2 cm sobre la superficie para aplicar el fosfato.",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "aplicación de fosfato",
+        "activity_description": "esparce el fosfato sobre el suelo en la cantidad descrita antes .",
+        "materials": "producto: superfosfato de calcio (0-46-0) cantidad: 30-40 kg/ha",
+        "typeRice": 1
+    },
+    {
+        "activity_name": "nivel de agua normal",
+        "activity_description": "se vuelve el agua a su altura original 2-5 cm sobre la superficie",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+        "activity_name": "bajar el nivel agua",
+        "activity_description": "bajar el nivel del agua 1-2 cm sobre la superficie para aplicar el fertilizante.",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "Fertilización nitrogenada 2",
+        "activity_description": "dispersa el fertilizante por toda la hectárea si tienes un esparcidor mecánico si no manualmente",
+        "materials": "producto: urea (46-0-0) cantidad: 50-60 kg/ha",
+        "typeRice": 1
+    },
+    {
+        
+        "activity_name": "normalizar agua",
+        "activity_description": "se vuelve el agua a su altura original 2-5 cm sobre l superficie",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "aplicación de potasio",
+        "activity_description": "esparcir el producto en el agua para que el arroz pueda absorber todo.",
+        "materials": "producto: cloruro de potasio(0-0-60) cantidad: kg/ha",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "disminucion de agua",
+        "activity_description": "bajar el nievel del agua a 3-4 cm sobre la superficie del suelo para que el arroz empiece a madurar",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "disminucion de agua 2",
+        "activity_description": "bajar el nivel del agua hasta 1-2 cm sobre la superficie del suelo",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "revisión de cultivo",
+        "activity_description": "se revisa si hay plagas o enfermedades y se mantiene el nivel del agua si hay plagas o enfermedades elegir que es y cual.",
+        "materials": null,
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "suspensión de riego parci",
+        "activity_description": "retira la inundación del suelo y mantén el suelo húmedo no inundado.",
+        "materials": null,
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "suspencion de agua comple",
+        "activity_description": "se suspende completamente el riego y se deja secar la tierra",
+        "materials": "sistema de riego",
+        "typeRice": 1
+    },
+    {
+
+        "activity_name": "prueba de grano",
+        "activity_description": "Pellizca un grano de arroz si se parte fácil y tiene color dorado esta listo, y también fíjate en sus hojas  y tallos si empiezan a secarse(amarilleo) es una señal de que se puede cosechar.",
+        "materials": null,
+        "typeRice": 1
+    }
+]

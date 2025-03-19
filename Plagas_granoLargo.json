@@ -1,0 +1,44 @@
+[
+    {
+        "name_plague":"Tungro del arroz (Nephotettix virescens)",
+        "description_plague":"El tungro es un virus transmitido por el saltón del arroz (Nephotettix virescens), un insecto que se alimenta de la savia de la planta de arroz. Esta plaga puede destruir grandes áreas de cultivo si no se maneja correctamente.",
+        "sintomas_plague":"Hojas que se vuelven amarillas, disminución del tamaño de la planta (enanismo), reducción del número de granos por espiga y mayor susceptibilidad a otras enfermedades.",
+        "materials_plague":"Imidacloprid: 0.5-1.0 l/ha, Pulverizador: Manual o motorizado,  Equipos de protección personal (EPP): Guantes, mascarillas, gafas.",
+        "procedure_plague":"Pulverización foliar(directamente en las hojas) al atardecer o temprano en la mañana para evitar la evaporación del producto."
+    },
+    {
+        "name_plague":"Gusano cogollero (Scirpophaga excerptalis)",
+        "description_plague":"El gusano cogollero es una de las plagas más destructivas para el arroz, ya que sus larvas se alimentan de los cogollos (el centro de crecimiento de la planta), provocando la muerte de la planta si no se controla a tiempo.",
+        "sintomas_plague":"Perforaciones visibles en las hojas, amarillamiento de las hojas, y, en casos graves, la caída de las hojas y muerte de la planta. Las plantas afectadas no se desarrollan adecuadamente, lo que afecta el rendimiento.",
+        "materials_plague":"Clorantraniliprol: 0.5-1.0 l/ha, Pulverizador: Manual o motorizado, EPP: Guantes, mascarillas, gafas.",
+        "procedure_plague":"Pulverizar en la parte inferior de las hojas, donde suelen encontrarse las larvas."
+    },
+    {
+        "name_plague":"Chinche del arroz (Tibraca limbativentris)",
+        "description_plague":"Esta plaga se alimenta de las hojas y tallos del arroz, lo que causa daño directo a las plantas. También puede transmitir enfermedades virales, lo que agrava el daño.",
+        "sintomas_plague":"Hojas con manchas necróticas, amarillamiento y deformación de las hojas. En infestaciones graves, las plantas se vuelven débiles y mueren",
+        "materials_plague":"Fipronil: 0.5-1.0 l/ha, Pulverizador: Manual o motorizado, EPP: Guantes, mascarillas, gafas.",
+        "procedure_plague":"Pulverización foliar(directamente en las hojas para mayor absorsion) en la tarde o temprano en la mañana"
+    },
+    {
+        "name_plague":"Cochinilla del arroz (Pseudococus saccharicidus)",
+        "description_plague":"La cochinilla del arroz es una plaga que se alimenta de la savia de la planta, lo que provoca debilitamiento.",
+        "sintomas_plague":"Aparición de manchas pegajosas en las hojas y los tallos, seguido de un amarillamiento de las plantas. En infestaciones graves, las plantas pueden secarse y morir.",
+        "materials_plague":"Pyriproxyfen: 0.5-1.0 l/ha, Pulverizador: Manual o motorizado, EPP: Guantes, mascarillas, gafas.",
+        "procedure_plague":"Pulverización foliar(directamente en las hojas para mayor absorsion) en la tarde o temprano en la mañana"
+    },
+    {
+        "name_plague":"Mosca del arroz (Diptera: Chloropidae)",
+        "description_plague":"La mosca del arroz es una plaga que afecta a las panículas y los granitos del arroz. Sus larvas perforan las espigas, lo que impide la correcta polinización y formación de los granos",
+        "sintomas_plague":"Granos vacíos, deformación de las espigas, reducción de la cantidad de grano por panícula.",
+        "materials_plague":"Dimetoato: 1.0 l/ha, Pulverizador: Manual o motorizado, EPP: Guantes, mascarillas, gafas.",
+        "procedure_plague":"Pulverización dirigida a las espigas(directamente sobre las espigas)"
+    },
+    {
+        "name_plague":"Ácaro rojo del arroz (Tetranychus urticae)",
+        "description_plague":"El ácaro rojo es un parásito minúsculo que se alimenta de la savia de la planta de arroz. Aunque es pequeño y difícil de detectar a simple vista, su presencia puede causar daños severos a la planta si no se controla a tiempo.",
+        "sintomas_plague":" Los síntomas iniciales incluyen puntos amarillentos en las hojas, que luego se convierten en manchas necrosadas. Si la infestación es severa, las hojas se secan y caen, lo que lleva a una reducción en la fotosíntesis y, por ende, al debilitamiento de la planta.",
+        "materials_plague":"Abamectina: 0.5-1.0 l/ha,  Pulverizador: Manual o motorizado, EPP: Guantes, mascarillas, gafas",
+        "procedure_plague":"Pulverización foliar(directamente en las hojas), asegurándose de que el producto cubra bien el envés de las hojas donde se encuentran los ácaros."
+    }
+]

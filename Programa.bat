@@ -1,0 +1,1 @@
+C:\Users\juand\OneDrive\Documentos\pruebasNotepads\Notepads\entorno\Scripts\python.exe C:\Users\juand\OneDrive\Documentos\pruebasNotepads\Notepads\manage.py runscript enviar_notificaciones.py

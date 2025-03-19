@@ -1,0 +1,20 @@
+from django.db import connection
+from acividades.models import activitys
+
+activitys.objects.all().delete()
+
+with connection.cursor() as cursor:
+    cursor.execute("DELETE FROM sqlite_sequence WHERE name='acividades_activitys';")
+
+
+from acividades.models import activitys
+print(activitys._meta.db_table)
+
+
+from django.db import connection
+from evento.models import event
+
+event.objects.all().delete()
+
+with connection.cursor() as cursor:
+    cursor.execute("DELETE FROM sqlite_sequence WHERE name='evento_event';")
