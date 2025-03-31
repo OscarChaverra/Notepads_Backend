@@ -19,7 +19,15 @@ def startCalendar(self,idadmin,idtyperice):
         serializer.save()
     else:
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
+class CalendarList(APIView):
+    def get(self,request):
+
+        calendars = startcalendar.objects.filter(idAdmin = request.user.id)
+        serializer = startappSerializer(calendars, many = True)
+
+        return Response(serializer.data)
+
 class DeleteCalendar(APIView):
     def post(self,request):
         #dateCalendar
@@ -28,14 +36,6 @@ class DeleteCalendar(APIView):
         dataInput = request.data
 
         #se trae el calendario en el cual se esta haciendo la peticion
-        startcalendar.objects.filter(idAdmin = request.user.id,date=dataInput["dateCalendar"]).delete()
+        startcalendar.objects.filter(idAdmin = request.user.id,id=dataInput["idCalendar"]).delete()
 
         return Response("calendar deleted")
-    
-class CalendarList(APIView):
-    def get(self,request):
-
-        calendars = startcalendar.objects.filter(idAdmin = request.user.id)
-        serializer = startappSerializer(calendars, many = True)
-
-        return Response(serializer.data)

@@ -99,7 +99,7 @@ class EventView(APIView):
 
 
         dataInput = request.data
-        calendar = startcalendar.objects.filter(idAdmin = request.user.id, date = dataInput["dateCalendar"]).first()
+        calendar = startcalendar.objects.filter(idAdmin = request.user.id, id = dataInput["idCalendar"]).first()
 
         #verificamos si se filtro algo
         if calendar:
@@ -124,7 +124,7 @@ class CreateSpecialEvent(APIView):
         dataInput = request.data
 
         #se trae el calendario en el cual se esta haciendo la peticion
-        calendar = startcalendar.objects.filter(idAdmin = request.user.id,date=dataInput["dateCalendar"]).first()
+        calendar = startcalendar.objects.filter(idAdmin = request.user.id,id=dataInput["idCalendar"]).first()
 
         #se traen los eventos que posee ese calendario
         events = event.objects.filter(idCalendario = calendar.id)
@@ -193,8 +193,9 @@ class DeleteSpecialEvent(APIView):
         #se agarran los datos que vienen del request
         dataInput = request.data
 
+        
         #se trae el calendario en el cual se esta haciendo la peticion
-        calendar = startcalendar.objects.filter(idAdmin = request.user.id,date=dataInput["dateCalendar"]).first()
+        calendar = startcalendar.objects.filter(idAdmin = request.user.id,id=dataInput["idCalendar"]).first()
 
         #se traen los eventos que posee ese calendario
         evento = event.objects.filter(idCalendario = calendar.id, Fecha = dataInput["dateEvent"])
