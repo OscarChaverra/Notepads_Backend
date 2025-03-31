@@ -8,14 +8,10 @@ from Users.serializer import LogInInputSerializer, LogInOutputSerializer
 from Users.serializer import ProfileOutputSerializer
 from django.contrib.auth.views import PasswordResetView
 from django.urls import reverse_lazy
-<<<<<<< Updated upstream
-
-=======
 import requests
 import jwt
 from django.contrib.auth import get_user_model
 from rest_framework.authtoken.models import Token
->>>>>>> Stashed changes
 from Users.models import CustomUser
 
 
@@ -90,8 +86,6 @@ class Login(APIView):
         return Response(data=serializer.data, status=status.HTTP_201_CREATED)
     
 
-<<<<<<< Updated upstream
-=======
 class GoogleLoginView(APIView):
     permission_classes = [AllowAny]
 
@@ -135,18 +129,12 @@ class GoogleLoginView(APIView):
         
     
 
->>>>>>> Stashed changes
 class myProfile(APIView):
 
     def get(self, request):
         serializer = ProfileOutputSerializer({
             "username": request.user.username,
-<<<<<<< Updated upstream
-            "email": request.user.email,
-            "birth_date": request.user.birth_date
-=======
             "email": request.user.email
->>>>>>> Stashed changes
         })
     
         return Response(data=serializer.data, status=status.HTTP_202_ACCEPTED)
@@ -159,5 +147,4 @@ class CustomPasswordResetView(PasswordResetView):
     html_email_template_name = "registration/password_reset_email.html"  # Usar HTML en el correo
     subject_template_name = "registration/password_reset_subject.txt"  # Asunto del correo
     success_url = reverse_lazy('password_reset_done')  # Redirigir a la página de éxito después del reset
-
 
