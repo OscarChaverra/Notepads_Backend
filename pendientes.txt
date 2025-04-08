@@ -1,8 +1,0 @@
-tareas pendientes:
-
-
-solucionar problemas con las plagas y efermedades
-
-realizar backend de notificaciones
-
-pensar como se va a recibir el evento de plagas o enfermedades y que se va a hacer en el backend.
