@@ -24,7 +24,6 @@ class SaveDiseases(APIView):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         
 class ViewEnfermedades(APIView):
-    permission_classes = [AllowAny]
 
     def post(self, request):
         try:
