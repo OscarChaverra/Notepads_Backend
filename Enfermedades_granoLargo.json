@@ -1,6 +1,7 @@
 [
     {
         "name_disease": "Arroz (Blast) - Pyricularia oryzae",
+        "img":"https://www.laguiasata.com/media/plagas/pyricularia_grisea_inia2.jpg",
         "description_disease": "El blanco del arroz o Blast es una de las enfermedades más devastadoras para el arroz. Causada por el hongo Pyricularia oryzae, afecta tanto a las plantas jóvenes como a las adultas",
         "sintomas_disease":"Manchas alargadas, de color grisáceo o blanco, rodeadas por un halo oscuro en las hojas. En casos graves, las espigas se infectan, lo que causa granos vacíos o deformes. También puede causar muerte prematura de las plantas.",
         "materials_disease": "Triciclazol: 0.3-0.5 kg/ha, Pulverizador: Manual o motorizado,  EPP: Guantes, mascarillas, gafas.  ",
@@ -8,6 +9,7 @@
     },
     {
         "name_disease":"Mildiu (Peronosclerospora sorghi)",
+        "img":"https://alchetron.com/cdn/peronosclerospora-sorghi-8a357757-64f4-4eb3-b352-32eeea3d610-resize-750.jpeg",
         "description_disease":"El mildiu es una enfermedad fúngica causada por el hongo Peronosclerospora sorghi, que afecta principalmente a las plantas de arroz durante la etapa de maduración",
         "sintomas_disease":"Aparecen manchas blancas o amarillentas en las hojas, que eventualmente se convierten en necrosis. Las hojas infectadas pueden enrollarse y secarse.",
         "materials_disease":"Mancozeb: 2.0-2.5 kg/ha, Pulverizador: Manual o motorizado, EPP: Guantes, mascarillas, gafas ",
@@ -15,6 +17,7 @@
     },
     {
         "name_disease":"Hoja marrón (Rhizoctonia solani)",
+        "img":"https://www.invesa.com/wp-content/uploads/2017/10/imagen_catalogoqsuTWsW.png",
         "description_disease":"La hoja marrón es causada por el hongo Rhizoctonia solani, ausando un daño significativo a las hojas y la base de las plantas.",
         "sintomas_disease":" Manchas marrones en las hojas que se agrandan y forman áreas secas y necrosadas. Las plantas afectadas se vuelven débiles y pueden caer.",
         "materials_disease":"Carbendazim: 0.5-1.0 kg/ha, Pulverizador: Manual o motorizado,  EPP: Guantes, mascarillas, gafas. ",
@@ -22,6 +25,7 @@
     },
     {
         "name_disease":"Antracnosis del arroz (Colletotrichum gloeosporioides)",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/111482357/original.jpeg",
         "description_disease":"La antracnosis es una enfermedad fúngica que afecta tanto las hojas como los granos de arroz, Causada por Colletotrichum gloeosporioides, puede provocar pérdidas significativas en la cosecha.",
         "sintomas_disease":"Manchas marrones o negras en las hojas y espigas, a menudo con bordes amarillentos. En casos graves, las espigas se secan y los granos se vuelven deformes.",
         "materials_disease":"Fludioxonil: 0.2-0.3 l/ha,  Pulverizador: Manual o motorizado,  EPP: Guantes, mascarillas, gafas.",
@@ -29,6 +33,7 @@
     },
     {
         "name_disease":"Rizobacteriosis (Burkholderia glumae)",
+        "img":"https://plantwiseplusknowledgebank.org/cms/10.1079/pwkb.20197800026/asset/96a780e7-3884-44e1-afe6-b3f71d2a8149/assets/graphic/e1a0410f-4b0f-49b5-9926-f6c71fee89f4.png",
         "description_disease":"La rizobacteriosis es causada por la bacteria Burkholderia glumae y afecta principalmente a las espigas y los granos del arroz. Este patógeno puede causar la pudrición bacteriana del grano.",
         "sintomas_disease":"Podredumbre y mal desarrollo de los granos, que se vuelven blandos y de color marrón. Las plantas infectadas pueden presentar un marchitamiento generalizado.",
         "materials_disease":"Streptomicina: 0.5 kg/ha, Pulverizador: Manual o motorizado, EPP: Guantes, mascarillas, gafas. ",

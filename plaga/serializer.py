@@ -10,6 +10,7 @@ class PlagaSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             "name_plague",
+            "img",
             "description_plague",
             "sintomas_plague",
             "materials_plague",

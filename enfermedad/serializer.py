@@ -10,6 +10,7 @@ class EnfermedadSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             "name_disease",
+            "img",
             "description_disease",
             "sintomas_disease",
             "materials_disease",
