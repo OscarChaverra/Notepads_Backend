@@ -33,8 +33,10 @@ class changeStatus(APIView):
     def post(self,request):
         
         inputData = request.data
+        notificaciones = Notifications.objects.filter(IdUsuarios = request.user.id, id = inputData["idNotification"])
+        notificaciones.update(estado = False)
 
-        notificaciones = Notifications.objects.filter(IdUsuarios = request.user.id, fecha = inputData["fechaNotificacion"]).update(estado = False)
+        return Response({"message": "Se elimino correctamente"}, status=200)
 
 
 
