@@ -9,6 +9,8 @@ from datetime import datetime,timedelta
 from django.core.mail import send_mail
 from django.conf import settings
 from rest_framework.response import Response
+from django.core.management import call_command
+import io
 from .serializer import NotificationsSerializer
 
 # Create your views here.
@@ -38,11 +40,14 @@ class changeStatus(APIView):
 
         return Response({"message": "Se elimino correctamente"}, status=200)
 
-
-
-        
-# 
-
-
-
-
+class EjecutarTareaAPIView(APIView):
+    permission_classes = [AllowAny]
+    def get(self, request):
+        out = io.StringIO()
+        try:
+            call_command('enviar_recordatorios', stdout=out)
+            output = out.getvalue()
+            return Response({"output": output})
+        except Exception as e:
+            return Response({"error": str(e)}, status=500)
+    
