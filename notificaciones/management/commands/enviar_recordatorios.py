@@ -2,7 +2,8 @@ from django.core.management.base import BaseCommand
 from django.core.mail import send_mail
 from django.conf import settings
 from datetime import datetime, timedelta
-from notificaciones.models import Notifications, event
+from notificaciones.models import Notifications
+from evento.models import event 
 from Users.models import CustomUser
 
 class Command(BaseCommand):
@@ -28,6 +29,8 @@ class Command(BaseCommand):
                     Idevent=evento,
                     Titulo=titulo,
                     Mensaje=mensaje,
+                    fecha= hoy,
+                    estado=True
                 )
 
                 send_mail(
